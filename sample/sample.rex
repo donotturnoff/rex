@@ -30,7 +30,7 @@ echo _ s =
 $ run str null -> null
 run opt _ =
     | select out str ack 1 factorial fibonacci abs * -1 indexOf "Hello" "o"    if == opt "1"
-    | select count int in "Enter integer to count\n from: " 0 null               if == opt "2"
+    | select count int in "Enter integer to count from: " 0 null               if == opt "2"
     | select echo null "Type text and it will be echoed back to you"           if == opt "3"
     | select out str random                                                    if == opt "4"
     | select out str randint int in "randint: min = " int in "max = "          if == opt "5"
